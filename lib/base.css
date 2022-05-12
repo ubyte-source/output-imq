@@ -5,7 +5,7 @@ div.imq table.grid tr { page-break-before: auto; page-break-inside: avoid; }
 div.imq table.grid thead { display: table-header-group; }
 div.imq table.grid thead tr { background-color: #3a5583; color: #ffffff; }
 div.imq table.grid thead tr.unit { background-color: #f1f1f1; color: #3a5583; }
-div.imq table.grid thead tr.unit th.area { width: 6% !important;}
+div.imq table.grid thead tr.unit th.area { width: 6% !important; }
 div.imq table.grid thead tr th.area { width: 12% !important; }
 
 div.imq table.grid tbody { display: table-row-group; }
