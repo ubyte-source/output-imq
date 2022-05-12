@@ -1,19 +1,20 @@
 div.imq table.grid { float: none; font-family: Arial, Helvetica, sans-serif; border-collapse: collapse; width: 100%; }
-div.imq table.grid { page-break-before: avoid; page-break-after: avoid; page-break-inside: avoid; }
-div.imq table.grid tr { page-break-before: right; }
+div.imq table.grid { page-break-before: avoid; page-break-after: avoid; page-break-inside: auto; }
+div.imq table.grid tr { page-break-before: auto; page-break-inside: avoid; }
 
+div.imq table.grid thead { display: table-header-group; }
 div.imq table.grid thead tr { background-color: #3a5583; color: #ffffff; }
 div.imq table.grid thead tr.unit { background-color: #f1f1f1; color: #3a5583; }
 div.imq table.grid thead tr.unit th.area { width: 6% !important;}
 div.imq table.grid thead tr th.area { width: 12% !important; }
 
+div.imq table.grid tbody { display: table-row-group; }
 div.imq table.grid tbody tr { background-color: #f2f2f2; }
 div.imq table.grid tbody tr td, div.imq table.grid thead tr th { padding: 4px; border: 1px solid #ddd; }
-div.imq table.grid tbody tr.break { page-break-before: right; }
 div.imq table.grid tbody tr.orange td { color: #ff6600; }
 div.imq table.grid tbody tr.green td, div.imq table.grid tbody tr.red td { background-color: #ffffff; }
 div.imq table.grid tbody tr.green td { color: #249225; }
-div.imq table.grid tbody tr.blue td {color: #0000ff; }
+div.imq table.grid tbody tr.blue td { color: #0000ff; }
 div.imq table.grid tbody tr.red td { color: #ff0000; }
 
 div.imq table.node { float: none; margin-top: 24px; font-family: Arial, Helvetica, sans-serif; border-collapse: collapse; width: 100%; }
